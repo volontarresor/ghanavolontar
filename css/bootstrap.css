@@ -4021,8 +4021,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 0;
 }
 .navbar-mountains h1 {
-  font-size: 36px !important;
   color: #018000;
+  font-size: 18px !important;
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .navbar-mountains h1 {
+    margin-top: 20px;
+    font-size: 36px !important;
+  }
 }
 .navbar-inverse {
   background-color: #222222;
